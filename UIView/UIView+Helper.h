@@ -1,0 +1,2 @@
+@interface UIView(Helper)
+@end
