@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-#pragma mark - ?? ?? ??
+#pragma mark - 기하 도움 함수
 CGPoint CGRectGetCenter(CGRect rect);
 CGRect  CGRectMoveToCenter(CGRect rect, CGPoint center);
 
 
 @interface UIView(Helper)
-#pragma mark - ?????
+#pragma mark - 뷰기하관련
 @property CGPoint origin;
 @property CGSize size;
 @property (readonly) CGPoint topLeft;
@@ -29,7 +29,7 @@ CGRect  CGRectMoveToCenter(CGRect rect, CGPoint center);
 @property CGFloat right;
 -(void) moveBy:(CGPoint)delta;
 -(void) scaleBy:(CGFloat)scaleFactor;
-#pragma mark - ????
+#pragma mark - 크기조정
 -(void) setSize:(CGSize)newSize;
 -(void) fitInSize:(CGSize)inSize;
 @end
