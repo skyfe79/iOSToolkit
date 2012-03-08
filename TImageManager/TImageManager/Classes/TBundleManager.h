@@ -15,4 +15,5 @@
 }
 @property(nonatomic, readonly) NSString *pathForBundle;
 +(id) sharedInstance;
+-(NSString *)pathForResource:(NSString *)name type:(NSString *)type;
 @end

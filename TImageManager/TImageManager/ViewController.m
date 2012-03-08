@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TImageCacheManager.h"
 @interface ViewController ()
 
 @end
@@ -17,13 +17,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    UIImageView *imgView = [[[UIImageView alloc] initWithFrame:self.view.bounds]autorelease];
+    UIImage *image = [UIImage imageFromBundle:@"img01.png"];
+    [imgView setImage:image];
+    [self.view addSubview:imgView];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+}
+- (void)didReceiveMemoryWarning
+{
+    [[TImageCacheManager sharedInstance] releaseCachedImages];
+    [super didReceiveMemoryWarning];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

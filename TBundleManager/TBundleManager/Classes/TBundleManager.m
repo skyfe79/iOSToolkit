@@ -118,4 +118,14 @@ static TBundleManager *g_instance_tbundle_manager = nil;
     return path;
 }
 
+/**
+ * @brief   현재 번들에서 리소스의 경로를 반환한다.
+ * @return  리소스의 경로 없으면 nil
+ */
+-(NSString *)pathForResource:(NSString *)name type:(NSString *)type
+{
+    if(bundle==nil)
+        return nil;
+    return [bundle pathForResource:name ofType:type];
+}
 @end

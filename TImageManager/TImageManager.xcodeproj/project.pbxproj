@@ -20,7 +20,7 @@
 		4E8170F915087BD100A5B914 /* Bundle_iPad.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E8170F615087BD100A5B914 /* Bundle_iPad.bundle */; };
 		4E8170FA15087BD100A5B914 /* Bundle_Normal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E8170F715087BD100A5B914 /* Bundle_Normal.bundle */; };
 		4E8170FB15087BD100A5B914 /* Bundle_Retina.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E8170F815087BD100A5B914 /* Bundle_Retina.bundle */; };
-		4E8170FE15087BE200A5B914 /* TImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8170FD15087BE200A5B914 /* TImageManager.m */; };
+		4E8170FE15087BE200A5B914 /* TImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8170FD15087BE200A5B914 /* TImageCacheManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +43,8 @@
 		4E8170F615087BD100A5B914 /* Bundle_iPad.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle_iPad.bundle; sourceTree = "<group>"; };
 		4E8170F715087BD100A5B914 /* Bundle_Normal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle_Normal.bundle; sourceTree = "<group>"; };
 		4E8170F815087BD100A5B914 /* Bundle_Retina.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle_Retina.bundle; sourceTree = "<group>"; };
-		4E8170FC15087BE200A5B914 /* TImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TImageManager.h; sourceTree = "<group>"; };
-		4E8170FD15087BE200A5B914 /* TImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TImageManager.m; sourceTree = "<group>"; };
+		4E8170FC15087BE200A5B914 /* TImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; path = TImageCacheManager.h; sourceTree = "<group>"; };
+		4E8170FD15087BE200A5B914 /* TImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TImageCacheManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 			children = (
 				4E8170F215087BCA00A5B914 /* TBundleManager.h */,
 				4E8170F315087BCA00A5B914 /* TBundleManager.m */,
-				4E8170FC15087BE200A5B914 /* TImageManager.h */,
-				4E8170FD15087BE200A5B914 /* TImageManager.m */,
+				4E8170FC15087BE200A5B914 /* TImageCacheManager.h */,
+				4E8170FD15087BE200A5B914 /* TImageCacheManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 				4E8170E215087B9100A5B914 /* AppDelegate.m in Sources */,
 				4E8170E515087B9100A5B914 /* ViewController.m in Sources */,
 				4E8170F415087BCA00A5B914 /* TBundleManager.m in Sources */,
-				4E8170FE15087BE200A5B914 /* TImageManager.m in Sources */,
+				4E8170FE15087BE200A5B914 /* TImageCacheManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
