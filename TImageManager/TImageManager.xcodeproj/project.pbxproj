@@ -43,7 +43,7 @@
 		4E8170F615087BD100A5B914 /* Bundle_iPad.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle_iPad.bundle; sourceTree = "<group>"; };
 		4E8170F715087BD100A5B914 /* Bundle_Normal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle_Normal.bundle; sourceTree = "<group>"; };
 		4E8170F815087BD100A5B914 /* Bundle_Retina.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle_Retina.bundle; sourceTree = "<group>"; };
-		4E8170FC15087BE200A5B914 /* TImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; path = TImageCacheManager.h; sourceTree = "<group>"; };
+		4E8170FC15087BE200A5B914 /* TImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TImageCacheManager.h; sourceTree = "<group>"; };
 		4E8170FD15087BE200A5B914 /* TImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TImageCacheManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,7 +245,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -270,7 +271,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -288,6 +290,8 @@
 		4E8170EF15087B9100A5B914 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TImageManager/TImageManager-Prefix.pch";
 				INFOPLIST_FILE = "TImageManager/TImageManager-Info.plist";
@@ -299,6 +303,8 @@
 		4E8170F015087B9100A5B914 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TImageManager/TImageManager-Prefix.pch";
 				INFOPLIST_FILE = "TImageManager/TImageManager-Info.plist";
@@ -326,6 +332,7 @@
 				4E8170F015087B9100A5B914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
