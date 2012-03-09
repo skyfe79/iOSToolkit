@@ -12,7 +12,7 @@
  * @brief   효과음 및 배경음을 재생하는 모듈
  *          cocos2d의 cocosDenshion lib을 사용한다.
  *          배경음악은 하나 밖에 플레이 할 수 없음.
- * @author  김성철(burt@podotree.com)
+ * @author  김성철(skyfe79@gmail.com)
  */
 
 @interface TSoundManager : NSObject
