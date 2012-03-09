@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bg</key>
+	<string>stage2_bg.mp3</string>
+	<key>fx_haha</key>
+	<string>fx_ggg.mp3</string>
+	<key>fx_hoho</key>
+	<string>fx_kkk.mp3</string>
+	<key>bg_loop</key>
+	<false/>
+</dict>
+</plist>

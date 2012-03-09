@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8171191508B03200A5B914 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8171181508B03200A5B914 /* UIKit.framework */; };
+		4E81711B1508B03200A5B914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E81711A1508B03200A5B914 /* Foundation.framework */; };
+		4E81711D1508B03200A5B914 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E81711C1508B03200A5B914 /* CoreGraphics.framework */; };
+		4E8171231508B03200A5B914 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E8171211508B03200A5B914 /* InfoPlist.strings */; };
+		4E8171251508B03200A5B914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8171241508B03200A5B914 /* main.m */; };
+		4E8171291508B03200A5B914 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8171281508B03200A5B914 /* AppDelegate.m */; };
+		4E81712C1508B03200A5B914 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E81712B1508B03200A5B914 /* ViewController.m */; };
+		4E81712F1508B03200A5B914 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E81712D1508B03200A5B914 /* ViewController.xib */; };
+		4E81713B1508B05800A5B914 /* TSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E81713A1508B05800A5B914 /* TSoundManager.m */; };
+		4E81713D1508BA0D00A5B914 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E81713C1508BA0D00A5B914 /* AVFoundation.framework */; };
+		4EED46481509A2D100E204B1 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED46401509A2D100E204B1 /* CDAudioManager.m */; };
+		4EED46491509A2D100E204B1 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED46431509A2D100E204B1 /* CDOpenALSupport.m */; };
+		4EED464A1509A2D100E204B1 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED46451509A2D100E204B1 /* CocosDenshion.m */; };
+		4EED464B1509A2D100E204B1 /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED46471509A2D100E204B1 /* SimpleAudioEngine.m */; };
+		4EED46521509A33400E204B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED46511509A33400E204B1 /* AudioToolbox.framework */; };
+		4EED46541509A34B00E204B1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED46531509A34B00E204B1 /* OpenAL.framework */; };
+		4EED46921509A51C00E204B1 /* stage1_sound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EED46911509A51C00E204B1 /* stage1_sound.plist */; };
+		4EED46961509A77F00E204B1 /* stage1_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED46931509A77F00E204B1 /* stage1_bg.mp3 */; };
+		4EED46971509A77F00E204B1 /* stage1_ef2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED46941509A77F00E204B1 /* stage1_ef2.mp3 */; };
+		4EED46981509A77F00E204B1 /* stage1_ef1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED46951509A77F00E204B1 /* stage1_ef1.mp3 */; };
+		4EED469C1509C70200E204B1 /* stage2_sound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EED469B1509C70200E204B1 /* stage2_sound.plist */; };
+		4EED46A01509C79700E204B1 /* stage2_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED469D1509C79700E204B1 /* stage2_bg.mp3 */; };
+		4EED46A11509C79700E204B1 /* fx_kkk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED469E1509C79700E204B1 /* fx_kkk.mp3 */; };
+		4EED46A21509C79700E204B1 /* fx_ggg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EED469F1509C79700E204B1 /* fx_ggg.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E8171141508B03200A5B914 /* TSoundManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSoundManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8171181508B03200A5B914 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E81711A1508B03200A5B914 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E81711C1508B03200A5B914 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E8171201508B03200A5B914 /* TSoundManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSoundManager-Info.plist"; sourceTree = "<group>"; };
+		4E8171221508B03200A5B914 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E8171241508B03200A5B914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8171261508B03200A5B914 /* TSoundManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSoundManager-Prefix.pch"; sourceTree = "<group>"; };
+		4E8171271508B03200A5B914 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E8171281508B03200A5B914 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E81712A1508B03200A5B914 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E81712B1508B03200A5B914 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E81712E1508B03200A5B914 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4E8171391508B05800A5B914 /* TSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSoundManager.h; sourceTree = "<group>"; };
+		4E81713A1508B05800A5B914 /* TSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSoundManager.m; sourceTree = "<group>"; };
+		4E81713C1508BA0D00A5B914 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4EED463F1509A2D100E204B1 /* CDAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAudioManager.h; sourceTree = "<group>"; };
+		4EED46401509A2D100E204B1 /* CDAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAudioManager.m; sourceTree = "<group>"; };
+		4EED46411509A2D100E204B1 /* CDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConfig.h; sourceTree = "<group>"; };
+		4EED46421509A2D100E204B1 /* CDOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDOpenALSupport.h; sourceTree = "<group>"; };
+		4EED46431509A2D100E204B1 /* CDOpenALSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDOpenALSupport.m; sourceTree = "<group>"; };
+		4EED46441509A2D100E204B1 /* CocosDenshion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosDenshion.h; sourceTree = "<group>"; };
+		4EED46451509A2D100E204B1 /* CocosDenshion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosDenshion.m; sourceTree = "<group>"; };
+		4EED46461509A2D100E204B1 /* SimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
+		4EED46471509A2D100E204B1 /* SimpleAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAudioEngine.m; sourceTree = "<group>"; };
+		4EED46511509A33400E204B1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4EED46531509A34B00E204B1 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		4EED46911509A51C00E204B1 /* stage1_sound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage1_sound.plist; sourceTree = "<group>"; };
+		4EED46931509A77F00E204B1 /* stage1_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage1_bg.mp3; sourceTree = "<group>"; };
+		4EED46941509A77F00E204B1 /* stage1_ef2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage1_ef2.mp3; sourceTree = "<group>"; };
+		4EED46951509A77F00E204B1 /* stage1_ef1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage1_ef1.mp3; sourceTree = "<group>"; };
+		4EED469B1509C70200E204B1 /* stage2_sound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage2_sound.plist; sourceTree = "<group>"; };
+		4EED469D1509C79700E204B1 /* stage2_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage2_bg.mp3; sourceTree = "<group>"; };
+		4EED469E1509C79700E204B1 /* fx_kkk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fx_kkk.mp3; sourceTree = "<group>"; };
+		4EED469F1509C79700E204B1 /* fx_ggg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fx_ggg.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8171111508B03200A5B914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EED46541509A34B00E204B1 /* OpenAL.framework in Frameworks */,
+				4EED46521509A33400E204B1 /* AudioToolbox.framework in Frameworks */,
+				4E81713D1508BA0D00A5B914 /* AVFoundation.framework in Frameworks */,
+				4E8171191508B03200A5B914 /* UIKit.framework in Frameworks */,
+				4E81711B1508B03200A5B914 /* Foundation.framework in Frameworks */,
+				4E81711D1508B03200A5B914 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8171091508B03200A5B914 = {
+			isa = PBXGroup;
+			children = (
+				4E81711E1508B03200A5B914 /* TSoundManager */,
+				4E8171171508B03200A5B914 /* Frameworks */,
+				4E8171151508B03200A5B914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8171151508B03200A5B914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8171141508B03200A5B914 /* TSoundManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8171171508B03200A5B914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EED46531509A34B00E204B1 /* OpenAL.framework */,
+				4EED46511509A33400E204B1 /* AudioToolbox.framework */,
+				4E81713C1508BA0D00A5B914 /* AVFoundation.framework */,
+				4E8171181508B03200A5B914 /* UIKit.framework */,
+				4E81711A1508B03200A5B914 /* Foundation.framework */,
+				4E81711C1508B03200A5B914 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E81711E1508B03200A5B914 /* TSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				4EED46901509A4FB00E204B1 /* Resources */,
+				4EED463E1509A2D100E204B1 /* libs */,
+				4E8171381508B05800A5B914 /* Classes */,
+				4E8171271508B03200A5B914 /* AppDelegate.h */,
+				4E8171281508B03200A5B914 /* AppDelegate.m */,
+				4E81712A1508B03200A5B914 /* ViewController.h */,
+				4E81712B1508B03200A5B914 /* ViewController.m */,
+				4E81712D1508B03200A5B914 /* ViewController.xib */,
+				4E81711F1508B03200A5B914 /* Supporting Files */,
+			);
+			path = TSoundManager;
+			sourceTree = "<group>";
+		};
+		4E81711F1508B03200A5B914 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8171201508B03200A5B914 /* TSoundManager-Info.plist */,
+				4E8171211508B03200A5B914 /* InfoPlist.strings */,
+				4E8171241508B03200A5B914 /* main.m */,
+				4E8171261508B03200A5B914 /* TSoundManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8171381508B05800A5B914 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E8171391508B05800A5B914 /* TSoundManager.h */,
+				4E81713A1508B05800A5B914 /* TSoundManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4EED463E1509A2D100E204B1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				4EED463F1509A2D100E204B1 /* CDAudioManager.h */,
+				4EED46401509A2D100E204B1 /* CDAudioManager.m */,
+				4EED46411509A2D100E204B1 /* CDConfig.h */,
+				4EED46421509A2D100E204B1 /* CDOpenALSupport.h */,
+				4EED46431509A2D100E204B1 /* CDOpenALSupport.m */,
+				4EED46441509A2D100E204B1 /* CocosDenshion.h */,
+				4EED46451509A2D100E204B1 /* CocosDenshion.m */,
+				4EED46461509A2D100E204B1 /* SimpleAudioEngine.h */,
+				4EED46471509A2D100E204B1 /* SimpleAudioEngine.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		4EED46901509A4FB00E204B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EED46911509A51C00E204B1 /* stage1_sound.plist */,
+				4EED46931509A77F00E204B1 /* stage1_bg.mp3 */,
+				4EED46941509A77F00E204B1 /* stage1_ef2.mp3 */,
+				4EED46951509A77F00E204B1 /* stage1_ef1.mp3 */,
+				4EED469B1509C70200E204B1 /* stage2_sound.plist */,
+				4EED469D1509C79700E204B1 /* stage2_bg.mp3 */,
+				4EED469E1509C79700E204B1 /* fx_kkk.mp3 */,
+				4EED469F1509C79700E204B1 /* fx_ggg.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8171131508B03200A5B914 /* TSoundManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8171321508B03200A5B914 /* Build configuration list for PBXNativeTarget "TSoundManager" */;
+			buildPhases = (
+				4E8171101508B03200A5B914 /* Sources */,
+				4E8171111508B03200A5B914 /* Frameworks */,
+				4E8171121508B03200A5B914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSoundManager;
+			productName = TSoundManager;
+			productReference = 4E8171141508B03200A5B914 /* TSoundManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E81710B1508B03200A5B914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4E81710E1508B03200A5B914 /* Build configuration list for PBXProject "TSoundManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E8171091508B03200A5B914;
+			productRefGroup = 4E8171151508B03200A5B914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8171131508B03200A5B914 /* TSoundManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8171121508B03200A5B914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8171231508B03200A5B914 /* InfoPlist.strings in Resources */,
+				4E81712F1508B03200A5B914 /* ViewController.xib in Resources */,
+				4EED46921509A51C00E204B1 /* stage1_sound.plist in Resources */,
+				4EED46961509A77F00E204B1 /* stage1_bg.mp3 in Resources */,
+				4EED46971509A77F00E204B1 /* stage1_ef2.mp3 in Resources */,
+				4EED46981509A77F00E204B1 /* stage1_ef1.mp3 in Resources */,
+				4EED469C1509C70200E204B1 /* stage2_sound.plist in Resources */,
+				4EED46A01509C79700E204B1 /* stage2_bg.mp3 in Resources */,
+				4EED46A11509C79700E204B1 /* fx_kkk.mp3 in Resources */,
+				4EED46A21509C79700E204B1 /* fx_ggg.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8171101508B03200A5B914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8171251508B03200A5B914 /* main.m in Sources */,
+				4E8171291508B03200A5B914 /* AppDelegate.m in Sources */,
+				4E81712C1508B03200A5B914 /* ViewController.m in Sources */,
+				4E81713B1508B05800A5B914 /* TSoundManager.m in Sources */,
+				4EED46481509A2D100E204B1 /* CDAudioManager.m in Sources */,
+				4EED46491509A2D100E204B1 /* CDOpenALSupport.m in Sources */,
+				4EED464A1509A2D100E204B1 /* CocosDenshion.m in Sources */,
+				4EED464B1509A2D100E204B1 /* SimpleAudioEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E8171211508B03200A5B914 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8171221508B03200A5B914 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E81712D1508B03200A5B914 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E81712E1508B03200A5B914 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8171301508B03200A5B914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E8171311508B03200A5B914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8171331508B03200A5B914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSoundManager/TSoundManager-Prefix.pch";
+				INFOPLIST_FILE = "TSoundManager/TSoundManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E8171341508B03200A5B914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSoundManager/TSoundManager-Prefix.pch";
+				INFOPLIST_FILE = "TSoundManager/TSoundManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E81710E1508B03200A5B914 /* Build configuration list for PBXProject "TSoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8171301508B03200A5B914 /* Debug */,
+				4E8171311508B03200A5B914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8171321508B03200A5B914 /* Build configuration list for PBXNativeTarget "TSoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8171331508B03200A5B914 /* Debug */,
+				4E8171341508B03200A5B914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E81710B1508B03200A5B914 /* Project object */;
+}
