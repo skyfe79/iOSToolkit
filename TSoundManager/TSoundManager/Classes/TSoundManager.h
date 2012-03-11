@@ -20,6 +20,9 @@
     NSDictionary    *preloadedSounds;
     NSUInteger      currentFxId;
 }
+@property(nonatomic, readwrite) float   backgroundMusicVolume;
+@property(nonatomic, readwrite) float   effectSoundVolume;
+
 +(id)sharedInstance;
 -(BOOL)preloadFromPlist:(NSString *)plistFileName;
 -(void)unloadAllSounds;

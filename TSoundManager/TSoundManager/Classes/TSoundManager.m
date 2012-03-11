@@ -6,6 +6,7 @@
 //  Copyright (c) 2012년 __MyCompanyName__. All rights reserved.
 //
 
+
 #import "TSoundManager.h"
 #import "SimpleAudioEngine.h"
 
@@ -16,6 +17,7 @@ static TSoundManager *g_instance_tsound_manager = nil;
 @end
 
 @implementation TSoundManager
+
 +(id)sharedInstance
 {
     if(g_instance_tsound_manager==nil)
@@ -193,6 +195,32 @@ static TSoundManager *g_instance_tsound_manager = nil;
 -(void)stopFX
 {
     [[SimpleAudioEngine sharedEngine] stopEffect:currentFxId];
+}
+
+
+/**
+ * @brief 배경음악 볼륨을 조절한다
+ */
+-(float)backgroundMusicVolume
+{
+    return [[SimpleAudioEngine sharedEngine] backgroundMusicVolume];
+}
+-(void)setBackgroundMusicVolume:(float)backgroundMusicVolume
+{
+    [[SimpleAudioEngine sharedEngine] setBackgroundMusicVolume:backgroundMusicVolume];
+}
+
+/**
+ * @brief 효과음 볼륨을 조절한다
+ */
+-(float)effectSoundVolume
+{
+    return [[SimpleAudioEngine sharedEngine] effectsVolume];
+}
+
+-(void)setEffectSoundVolume:(float)effectSoundVolume
+{
+    [[SimpleAudioEngine sharedEngine] setEffectsVolume:effectSoundVolume];
 }
 
 /**
