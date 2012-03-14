@@ -118,8 +118,8 @@
             ccDrawFilledCircle(ccp(start.x + (difx * delta), 
                                    start.y + (dify * delta)),
                                ccw(self.brushWidth),
-                               2*M_PI,
-                               10,
+                               0,		//: 시작 각도
+                               2*M_PI,	//: 끝 각도(원을 그리기 위해서는 2pi)
                                40);            
             
         }
